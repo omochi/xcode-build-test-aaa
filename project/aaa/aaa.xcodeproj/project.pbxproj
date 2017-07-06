@@ -254,6 +254,7 @@
 				D6F1F1FA1F0E135800A61981 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
