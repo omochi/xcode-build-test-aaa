@@ -9,12 +9,16 @@
 /* Begin PBXBuildFile section */
 		D6F1F1FD1F0E137000A61981 /* aaa.c in Sources */ = {isa = PBXBuildFile; fileRef = D6F1F1FB1F0E137000A61981 /* aaa.c */; };
 		D6F1F1FE1F0E137000A61981 /* aaa.h in Headers */ = {isa = PBXBuildFile; fileRef = D6F1F1FC1F0E137000A61981 /* aaa.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6F1F2571F0E201900A61981 /* common_name.c in Sources */ = {isa = PBXBuildFile; fileRef = D6F1F2551F0E201900A61981 /* common_name.c */; };
+		D6F1F2581F0E201900A61981 /* common_name.h in Headers */ = {isa = PBXBuildFile; fileRef = D6F1F2561F0E201900A61981 /* common_name.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D6F1F1F41F0E135800A61981 /* libaaa.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libaaa.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6F1F1FB1F0E137000A61981 /* aaa.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = aaa.c; path = ../../src/aaa.c; sourceTree = "<group>"; };
 		D6F1F1FC1F0E137000A61981 /* aaa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = aaa.h; path = ../../src/aaa.h; sourceTree = "<group>"; };
+		D6F1F2551F0E201900A61981 /* common_name.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = common_name.c; path = ../../src/common_name.c; sourceTree = "<group>"; };
+		D6F1F2561F0E201900A61981 /* common_name.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = common_name.h; path = ../../src/common_name.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +53,8 @@
 			children = (
 				D6F1F1FB1F0E137000A61981 /* aaa.c */,
 				D6F1F1FC1F0E137000A61981 /* aaa.h */,
+				D6F1F2551F0E201900A61981 /* common_name.c */,
+				D6F1F2561F0E201900A61981 /* common_name.h */,
 			);
 			name = src;
 			sourceTree = "<group>";
@@ -60,6 +66,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6F1F2581F0E201900A61981 /* common_name.h in Headers */,
 				D6F1F1FE1F0E137000A61981 /* aaa.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -122,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6F1F1FD1F0E137000A61981 /* aaa.c in Sources */,
+				D6F1F2571F0E201900A61981 /* common_name.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
